@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CLASS_DEV_LOAD_FILES_WINDOW</class>
+ <widget class="QWidget" name="CLASS_DEV_LOAD_FILES_WINDOW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0">
+   <item>
+    <layout class="QHBoxLayout" name="f_LabelsLayout" stretch="0,1">
+     <item>
+      <widget class="QLabel" name="f_DirectoryLabel">
+       <property name="text">
+        <string>Directory :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="f_DirectoryNameLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="f_TabFileStatus">
+     <column>
+      <property name="text">
+       <string>Files</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="f_LoadButton">
+     <property name="text">
+      <string>Load Design</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="f_LoadStatusLabel">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
